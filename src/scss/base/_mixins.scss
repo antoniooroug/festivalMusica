@@ -1,0 +1,24 @@
+// Los mixin son similares a las funciones en JavaScript que son nativas de sass
+@mixin telefono {
+    @media (min-width: $telefono) {
+        @content; // directiva que nos ayuda a que a la hora de utilizar tanatas propiedades queramos dentro del media query de lo contario marcaría un error
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin grid($columnas, $espaciado) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
+}

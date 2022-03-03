@@ -1,0 +1,40 @@
+@import 'base/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import 'base/variables';
+@import 'base/mixins';
+
+/*---Globales---*/
+
+@import 'base/globales';
+
+/*---Utilidades---*/
+
+@import 'base/utilidades';
+
+/*---Header---*/
+
+@import 'layout/header';
+
+/*---Video---*/
+
+@import 'layout/video';
+
+/*---Festival---*/
+
+@import 'layout/festival';
+
+/*---Line-up---*/
+
+@import 'layout/line-up';
+
+/*---Galería---*/
+
+@import 'layout/galeria';
+
+/*---Boletos---*/
+
+@import 'layout/boletos';
+
+/*---Footer---*/
+
+@import 'layout/footer';
